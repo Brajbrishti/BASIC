@@ -9,4 +9,5 @@ driver.maximize_window()
 driver.find_element(By.XPATH,'//input[@name="email"]').send_keys("brajendra")
 time.sleep(3)
 driver.close()
+driver.get("http://www.yahoomail.com")
 
