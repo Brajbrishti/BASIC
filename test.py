@@ -13,7 +13,7 @@ class A:
         print("result is :",num1 + num2)
 
 obj=A()
-obj.addition(15,45)
+
 obj.Number_ser()
 
 
