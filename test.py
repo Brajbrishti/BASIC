@@ -4,4 +4,4 @@ class A:
             print(i)
     def multiplication(self,a,b):
         result=a*b
-        print("result")        
+        print("result",result)        
