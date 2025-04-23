@@ -6,6 +6,7 @@ class A:
     def multiplication(self,a,b):
         result=a*b
         print("result",result)        
+
     def addition(self,num1,num2):
         num1=int(input("enter num1"))
         num2=int(input("enter num2"))
@@ -14,4 +15,5 @@ class A:
 obj=A()
 obj.addition(15,45)
 obj.Number_ser()
+
 
