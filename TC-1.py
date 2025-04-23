@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 import time
 import select
 driver = Chrome()
-#act = ActionChains(driver)
 
 driver.get("http://www.facebook.com")
 driver.maximize_window()
