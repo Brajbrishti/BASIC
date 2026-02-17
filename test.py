@@ -8,8 +8,6 @@ class A:
         print("result",result)        
 
     def addition(self,a,b):
-        a=num1
-        b=num2
         print("result is :",a+b)
 
 obj=A()
