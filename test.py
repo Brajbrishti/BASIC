@@ -15,7 +15,7 @@ class A:
 obj=A()
 
 obj.Number_ser()
-obj.addition()
+obj.addition(15,10)
 obj.multiplication(16,10)
 
 
