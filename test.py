@@ -7,12 +7,13 @@ class A:
         result=a*b
         print("result",result)        
 
-    def addition(self):
-        num1=int(input("enter num1 :"))
-        num2=int(input("enter num2 : "))
-        print("result is :",num1 + num2)
+    def addition(self,a,b):
+        print("result is :",a+b)
 
 obj=A()
 obj.Number_ser()
+obj.addition(15,10)
+obj.multiplication(16,10)
+
 
 
