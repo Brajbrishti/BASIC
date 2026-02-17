@@ -25,10 +25,10 @@ options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
 # If chromedriver is in PATH, this is enough:
-driver = webdriver.Chrome(options=options)
+driver = Chrome(options=options)
 
 driver.get("https://www.facebook.com")
-print("Page Title:", driver.title)
+# print("Page Title:", driver.title)
 
 driver.find_element(By.NAME, "email").send_keys("brajendra")
 print("Email entered successfully")
