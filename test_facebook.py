@@ -11,7 +11,7 @@
 # driver.find_element(By.XPATH,'//input[@name="email"]').send_keys("brajendra")
 # time.sleep(3)
 # driver.close()
-from selenium import webdriver
+from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
