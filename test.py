@@ -15,5 +15,7 @@ class A:
 obj=A()
 
 obj.Number_ser()
+obj.multiplication(15,15)
+
 
 
