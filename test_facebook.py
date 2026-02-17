@@ -1,8 +1,9 @@
+import os
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 import time
-import select
-driver = googlechrome()
+
+driver = Chrome()
 ### code starts from here ###
 driver.get("http://www.facebook.com")
 driver.maximize_window()
