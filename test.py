@@ -16,6 +16,7 @@ obj=A()
 
 obj.Number_ser()
 obj.multiplication(15,15)
+obj.addition(150,250)
 
 
 
