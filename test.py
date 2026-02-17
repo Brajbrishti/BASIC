@@ -13,7 +13,6 @@ class A:
         print("result is :",num1 + num2)
 
 obj=A()
-
 obj.Number_ser()
 
 
