@@ -12,7 +12,7 @@ class A:
 
 obj=A()
 obj.Number_ser()
-obj.addition(15,10)
+obj.addition(15,100000)
 obj.multiplication(16,10)
 
 
