@@ -19,9 +19,3 @@ obj.addition(1,2)
 obj.multiplication(15,15)
 
 
-# user_input=input("Enter the string to be reversed:")
-# reversed_list=""
-# for ch in user_input:
-#     reversed_list=ch+reversed_list
-# print(reversed_list)
-
