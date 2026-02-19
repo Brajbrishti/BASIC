@@ -11,9 +11,12 @@ class A:
         num1=int(input("enter num1"))
         num2=int(input("enter num2"))
         print("result is :",num1 + num2)
+class B(A):
+    def __int__(self):
+        print("Child class")
+obj=B()
+obj.addition(1,2)
+obj.multiplication(15,15)
 
-obj=A()
-
-obj.Number_ser()
 
 
