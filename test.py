@@ -18,9 +18,9 @@ class C(B,A):
         num2=int(input("enter num2"))
         print("result is :",num1 + num2)
 
-
 obj=C()
-obj.multiplication(5,2)
 obj.Number_ser()
-obj.addition(50,20)
+obj.addition(15,15)
+obj.multiplication()
+
 
