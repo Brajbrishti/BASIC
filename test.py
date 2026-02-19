@@ -8,12 +8,15 @@ class A:
         print("result",result)        
 
     def addition(self,num1,num2):
-        num1=int(input("enter num1"))
-        num2=int(input("enter num2"))
         print("result is :",num1 + num2)
 
 obj=A()
 obj.addition(15,45)
 obj.Number_ser()
+<<<<<<< Updated upstream
+=======
+obj.addition(15,15)
+obj.multiplication(15,15)
+>>>>>>> Stashed changes
 
 
