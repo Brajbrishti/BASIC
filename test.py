@@ -13,10 +13,7 @@ class A:
 obj=A()
 obj.addition(15,45)
 obj.Number_ser()
-<<<<<<< Updated upstream
-=======
-obj.addition(15,15)
 obj.multiplication(15,15)
->>>>>>> Stashed changes
+
 
 
