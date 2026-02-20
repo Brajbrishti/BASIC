@@ -12,7 +12,7 @@ pipeline {
 
 	stage ('Code is being execute !'){
 	    steps {		
-		bat 'wait !'
+		bat "code done"
 	}}
         stage('Run Python Script') {
             steps {
