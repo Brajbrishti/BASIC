@@ -11,6 +11,6 @@ fbb.find_element(By.XPATH,"//input[@name='firstname']").send_keys("braj")
 time.sleep(5)
 fbb.find_element(By.XPATH,'//input[@value="1"]').click()
 fbb.get_screenshot_as_file("e:\\1200.png")
-fbb.find_element(By.NAME,'//select[@title="Month"]').
+fbb.find_element(By.NAME,'//select[@title="Month"]')
 fbb.find_element(By.XPATH,'//select[@title="Month"]').se
 fbb.close()

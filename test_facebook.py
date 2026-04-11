@@ -19,6 +19,7 @@ import time
 
 print("Starting Selenium Test...")
 
+
 options = Options()
 options.add_argument("--headless")  # REQUIRED for Jenkins
 options.add_argument("--no-sandbox")
