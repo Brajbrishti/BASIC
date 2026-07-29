@@ -185,3 +185,205 @@
 # age_vote = int(input("Check age  for vote"))
 # vote = ("no" , "yes") [age_vote > 18]
 # print(vote)
+
+## Set for math purpose
+
+# set_1 ={1,2,3,4}
+# set_2 ={4,5,6}
+# set_3 = (set_1).union(set_2)  ### unique values ...
+# print(set_3)
+# set_3 = (set_1).intersection(set_2)  ### common values ...
+# print(set_3)
+
+########## dictionary
+# dict_animal = {"table" : ("a piece of furniture","list of fact & figures"),
+#                "cat":"a small animal"}
+# print(dict_animal)
+
+
+############# set
+# subjects_cls ={
+#     "python","java","c++",
+#     "java","python","c",
+#     "javascript"
+# }
+# print(len(subjects_cls))
+
+# marks = {}
+# x= int(input("enter phy:"))
+# marks.update({"phy":x})
+# x= int(input("enter math:"))
+# marks.update({"math":x})
+# x= int(input("enter eng:"))
+# marks.update({"eng":x})
+
+# print(marks)
+
+# set_20 = {"9","9.0"}
+# print(set_20)
+
+
+# count =1
+# while count<=5:
+#     a,b=50,20
+#     c=a+b
+    
+#     print(count,c)
+#     count +=1
+
+# print(count)    
+
+# cout = 10
+# while cout >= 1:
+
+#     print(cout)
+#     cout -= 1
+
+# print("End")    
+########### numbers 1 to 100
+# num_1 = 10
+
+# while num_1 >=1:
+
+#     print(num_1)
+#     num_1 -=1
+
+# while True:
+#     print("Hi !")
+
+### multipliaction of n number
+
+# num = int(input("enter any number :"))
+# i = 1
+# while i <= 10 :
+    
+#     print(num *i )
+#     i+=1
+############## print numbers from list    
+# lst =[1,4,9,16,49,25,36,49,64,81,36]
+# print(lst.count(36))
+# idx=0
+# while idx < len(lst):
+#     print(lst[idx])
+#     idx +=1
+############ find the x number from list
+
+# x=49
+# i=0
+# while i < len(lst):
+#     if (lst[i]==x):
+#         print("found at index :",i)
+#         break
+#     else:
+#         print("Finding....")    
+#     i+=1
+# print("Searching done...")    
+
+# i = 1
+# while i <= 100:
+#     print(i,end=" ")
+#     if (i == 20):
+#         break
+#     i += 1
+    
+
+
+# i = 1
+# while i <=10:
+#     if i == 3: 
+#         i += 1
+#         continue
+    
+#     print(i,end=" ")
+#     i+=1
+    
+
+
+
+# i = 1
+# while i <= 50:
+#     if  35<= i <=40:
+#         i+=1
+        
+#         continue
+#     print(i)
+#     i+=1      
+
+# char = "brishtisingh"
+# # idx = 0
+# for ch in char:
+#     if ch == 'i':
+#         print("i found",end=" ")
+#         # while idx < len(char):
+#             # print(idx[char])
+#             # idx +=1 
+#         continue
+#     print(ch,end=" ")
+    
+# lst =[1,4,9,16,49,25,36,49,64,81,36,25]
+
+# x =25
+# idx = 0
+# for i in lst:
+#     if i == x:
+#         print("element found ",idx)
+#         # break  ### stop for 1 time value
+#     idx +=1    ### if break not mention it will search for another idx.(25-index=5 ,25-index=11 )
+
+# tpl=(1,4,9,16,25,36,49,64,81,100)
+# print(tpl)
+# x = int(input("Enter the number from tuple"))
+# idx = 0
+# for i in tpl:
+#     if i == x:
+#         print("Searched number found at :",idx)
+#     idx +=1
+     
+# i = 1
+# while i<=10:
+#     print(i*2,end=" ")
+#     i+=1
+
+# for i in range(1,11):
+#     print(i*2,end=" ")
+############# first n numbers sum
+
+
+# n=int(input("Enter number :"))
+# sum=0
+# i=1
+# while i <=n:
+#     sum = sum + i
+#     i += 1
+# print(sum)
+
+
+
+# n=5
+# sum=0
+# for i in range(1,n+1):
+#     sum = sum +i
+# print(sum)    
+
+# n=int(input("enter number"))
+# sum=0
+# for i in range(1,n+1):
+#     print(i)
+#     sum = sum+i
+# print(sum)    
+
+# n=int(input("Enter number for fact :"))
+# fact =1
+# i=1
+# while i <= n:
+#     fact = fact * i
+#     i += 1
+# print(fact)
+
+# n=int(input("Enter number for fact :"))
+# fact = 1
+# for i in range(1,n+1):
+#     fact = fact * i
+    
+# print(fact)
+    
