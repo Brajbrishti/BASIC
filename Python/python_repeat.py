@@ -11,7 +11,8 @@
 #     print("Minor")
 
 
-
+### multiple choice program  Line 14
+# print("****************multiple choice program  Line 14*****************")
 # choice =input ("Enter choice (+,-,*) :")
 
 # a=int(input("enter no."))
@@ -368,7 +369,7 @@
 # n=int(input("enter number"))
 # sum=0
 # for i in range(1,n+1):
-#     print(i)
+#     # print(i)
 #     sum = sum+i
 # print(sum)    
 
