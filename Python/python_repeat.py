@@ -477,7 +477,7 @@ def recur_3(lst):
     if not lst:
         return
     print(lst[0],end=" ")
-    recur_3(lst[::1])
+    recur_3(lst[:1])
 
 lst=[10,20,30,40]
 recur_3(lst)
