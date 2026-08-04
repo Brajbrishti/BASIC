@@ -12,7 +12,7 @@ class B(A):
 
     def multiplication(self,a,b):
         result=a*b
-        print("result",result)        
+        print("result multi",result)        
     
     @staticmethod
     def pattern(n):    
@@ -32,6 +32,6 @@ class C(B,A):
 obj=C()
 obj.Number_ser()
 obj.addition(15,15)
-obj.multiplication(1,2)
+obj.multiplication(20,2)
 obj.pattern(1)
 
