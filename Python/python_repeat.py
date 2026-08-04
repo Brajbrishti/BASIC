@@ -387,4 +387,98 @@
 #     fact = fact * i
     
 # print(fact)
+
+# cities = ["Agra","Lko","etw","Cnb"]
+
+# def items(list):
+#     for item  in list:
+#         print(item,end=" ")
+# items(cities)        
+
+
+#### factorial using for loop 
+
+# n = int(input("Enter any number :"))
+# fact =1
+# while fact <=n:
+
+#     fact = fact * n
+#     print(fact)
+#     fact +=n 
+
+# def fact_num():
+      
+#     n=int(input("Enter any number for factorial :"))
+#     i=1
+#     fact =1
+#     while i<=n:
+        
+#          fact=fact*i
+#          i+=1
+#     print(fact)       
     
+# fact_num()    
+
+# def for_fact_lop():
+#     n = int(input("Enter any number :"))
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact = fact * i 
+#     print("Factorial of given number (",n, ") is:", fact)
+# for_fact_lop()          
+
+########### convert value
+# def convertor_currency(usd_val):
+#     inr_val = usd_val * 92
+#     print(usd_val , "USD = ",inr_val,"INR")
+    
+# convertor_currency(5)    
+
+### check given number is 'odd or even'
+# def odd_even():
+#     n = int(input("Enter any number :"))
+#     if n %2 == 0:
+#         print("Even Number :",n)
+#     else:
+#         print("Odd Number :",n) 
+        
+# odd_even()           
+
+# def recur(n):
+      
+#     if (n==1):
+#         return 1
+    
+#     # print(n)
+#     return n * recur(n-1)
+    
+# fact =recur(5)
+# print(fact)
+
+
+# def fact_2(n):
+#     if (n==1 or n == 0):
+#         return 1 
+#     return fact_2(n-1) * n
+
+# x=fact_2(5)
+# print(x)
+
+# def sum_nums(n):
+#     if (n==0) :
+#         return 0       
+#     # print(n)
+#     return sum_nums(n-1) + n    
+          
+# x=sum_nums(10)
+# print(x)
+
+def recur_3(lst):
+    if not lst:
+        return
+    print(lst[0],end=" ")
+    recur_3(lst[1:])
+
+lst=[10,20,30,40]
+recur_3(lst)
+ 

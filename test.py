@@ -1,4 +1,6 @@
 
+### Example of multiple inheritance 
+
 class A:
     def Number_ser(self):
         for i in range(1,15,2):
