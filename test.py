@@ -4,7 +4,7 @@
 class A:
     def Number_ser(self):
         for i in range(1,15,2):
-            print(i)
+            print(i,end="," )
         
 class B(A):
     def __int__(self):
@@ -12,7 +12,7 @@ class B(A):
 
     def multiplication(self,a,b):
         result=a*b
-        print("result multi",result)        
+        print("\n result multi",result)        
     
     @staticmethod
     def pattern(n):    
