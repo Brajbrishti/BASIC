@@ -21,17 +21,17 @@ class B(A):
             print("*" *i)
         
         
-class C(B,A):
+# class C(B,A):
     
-    def addition(self,num1,num2):
-        num1=int(input("enter num1 "))
-        num2=int(input("enter num2 "))
-        print("result is :",num1 + num2)
+    # def addition(self,num1,num2):
+        # num1=int(input("enter num1 "))
+        # num2=int(input("enter num2 "))
+        # print("result is :",num1 + num2)
 
 
-obj=C()
+obj=B()
 obj.Number_ser()
-obj.addition(15,15)
+# obj.addition(15,15)
 obj.multiplication(20,2)
 obj.pattern(1)
 
