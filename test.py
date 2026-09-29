@@ -3,7 +3,7 @@
 
 class A:
     def Number_ser(self):
-        for i in range(1,15,2):
+        for i in range(1,100,2):
             print(i,end="," )
         
 class B(A):
