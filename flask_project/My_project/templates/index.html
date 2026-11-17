@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>HomePage...Student Form</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<h1>Student Form...</h1>
+<form action ="/submit" method="POST">
+
+    Full Name:
+    <br><br>
+    <input type = "text" name= "student_name">
+    Age:
+    <input type ="number" name = "student_age" >
+    <br><br>
+    Email_id:
+    <input type="email" name="student_email">
+    <br><br>
+    City:
+    <input type="text" name="city">
+    <br><br>
+    
+    Submit: 
+    <input type ="submit" value ="Submit">
+    
+    
+</form>    
+
+<body style="background-color: cyan;">
+
+    <h4>Navigation links...</h4>
+<nav>  
+    <a href="/">Home</a> |
+    <a href="/about">About</a> |
+    <a href="/contact">Contact</a>
+</nav> 
+
+<hr>
+
+<h2>This is Home Page !</h2>
+
+<p>Hello Everyone! Welcome to my first Flask Website.</p>
+
+<script
+src="{{ url_for('static',filename='js/script.js') }}"
+>
+</script>
+
+</body>
+</html>
