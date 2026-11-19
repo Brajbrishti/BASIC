@@ -6,7 +6,7 @@ grouped = {}
 
 for name in names:
     
-    if name:
+    if name: 
         fst_letter = name[0].upper()
         
         if fst_letter not in grouped:
